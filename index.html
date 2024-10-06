@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Suliman!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/3b2fcb3b14.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assets/images/ms3.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#my projects">My Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> 
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Mohamed Suliman</h1>
+                <p>Ethical Hacker & Full Stack Developer</p>
+            </div>
+
+        </div>
+        <!-------------about-------------->
+
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/images/ms3.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum molestias quasi debitis minus, numquam asperiores vitae necessitatibus fugit illum. Inventore sequi quod laboriosam minima iure laudantium unde repellat eveniet aspernatur.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab('Knowledge, Skills & Abilities')">Knowledge, Skills & Abilities</p>
+                        <p class="tab-links active-link" onclick="opentab('Professional Experience')">Professional Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Expertise')">Expertise</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Knowledge, Skills & Abilities">
+                        <ul>
+                            <li><span>Network Traffic Analysis (wireshark, NMAP, NC)</span><br>Password cracking and Mitigation</li>
+                            <li><span> Experience with VMware, Kali Linux: Terminal and tools</span><br>Proxy- Burpsuite, Metasploit. DDOS, MIDM, Malware analysis, Criptography</li>
+                            <li><span>Web App Security System Installing</span><br>Configuring Windows 10, Windows Server 2012r, 2016, 2019, tools</li>
+                            <li><span> Active Directory, Domain Controler, DNS, DHCP</span><br>Networking OSI, TCP/IP Models</li>
+                            <li><span>Network Protocols HTTP, DNS, DHCP, FTP, SSH, etc...</span><br>HTML, CSS, JAVA SCript</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Professional Experience">
+                        <ul>
+                            <li><span>Ness Technologies, Tel Aviv
+                            </span><br>Business Solution</li>
+                            <li><span>Hotline, Tel Aviv</span><br>Computer Technician / Help Desk</li>
+                            <li><span>Ethical Hacker & Penetration Tester</span><br>Freelancer at YesWehack</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>Full Stack Develope</span><br>At JohnBryce 2024-2025</li>
+                            <li><span>Ethical Hacking & CyberSecurity</span><br>Kernelios College</li>
+                            <li><span>Cairo University, Cairo</span><br>2004-2005</li>
+                            <li><span>San Andrew, Cairo</span><br>2004-2005</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="Expertise"></div>
+                        <ul>
+                            <li><span>Security Architecture, Cybersecurity Roadmaps</span><br>Problem-Solving,Communication</li>
+                            <li><span>Vulnerability Management, Systems Security</span><br>Intrusion Detection and Mitigation</li>
+                            <li><span>Security Program Development, Cyber Intelligence</span><br>Problem-Solving, Cyber Threat Intelligence</li>
+                            <li><span>Cybersecurity Frameworks</span><br>Cyber Incident Response</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-user-secret"></i>
+                    <h2>Ethical Hacker</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi earum reiciendis sint doloremque explicabo fuga ipsa, veritatis vel numquam alias qui</p>
+                   <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bug-slash"></i>
+                    <h2>Penetration Tester</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi earum reiciendis sint doloremque explicabo fuga ipsa, veritatis vel numquam alias qui</p>
+                   <a href="#">learn more</a>
+                </div>   
+                <div>
+                    <i class="fa-solid fa-sitemap"></i>
+                    <h2>System Administrator</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi earum reiciendis sint doloremque explicabo fuga ipsa, veritatis vel numquam alias qui</p>
+                   <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-handshake"></i>
+                    <h2>Cyber Security Analyst</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi earum reiciendis sint doloremque explicabo fuga ipsa, veritatis vel numquam alias qui</p>
+                   <a href="#">learn more</a>
+                </div> 
+                <div>
+                    <i class="fa-solid fa-network-wired"></i>
+                    <h2>Network Security Engineer</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi earum reiciendis sint doloremque explicabo fuga ipsa, veritatis vel numquam alias qui</p>
+                   <a href="#">learn more</a>
+                </div>           
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Full Stack Developer</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi earum reiciendis sint doloremque explicabo fuga ipsa, veritatis vel numquam alias qui</p>
+                   <a href="#">learn more</a>
+                </div>           
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web Designer</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi earum reiciendis sint doloremque explicabo fuga ipsa, veritatis vel numquam alias qui</p>
+                   <a href="#">learn more</a>
+                </div> 
+                <div>
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h2>Stock Market Analyst</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi earum reiciendis sint doloremque explicabo fuga ipsa, veritatis vel numquam alias qui</p>
+                   <a href="#">learn more</a>
+                </div>                                           
+            </div>
+        </div>
+    </div>
+
+    <!-----------portfolio---------->
+
+    <div id="my projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/images/eh-hacking/backR.jpg">
+                    <div class="layer">
+                        <h3>Work One</h3>
+                        <p>Click Here For More Info</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/eh-hacking/backR.jpg">
+                    <div class="layer">
+                        <h3>Work Tow</h3>
+                        <p>Click Here For More Info</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/eh-hacking/backR.jpg">
+                    <div class="layer">
+                        <h3>Work Four</h3>
+                        <p>Click Here For More Info</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/images/eh-hacking/backR.jpg">
+                    <div class="layer">
+                        <h3>Work Five</h3>
+                        <p>Click Here For More Info</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!---------contact-------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>fitijoe@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0525591751</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/mohamedsuliman84"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/fitijoe"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/fitijoe"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/@fittech-b4z"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/fitijoe/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mohamedsuliman84"><i class="fa-solid fa-globe"></i></i></a>
+                        <a href="https://www.facebook.com/fiti.joe/"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="assets/images/CV/mohamed suliman resume.docx" download class="btn btn2">Download My CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> By Mohamed Suliman</p>
+        </div>
+    </div>
+
+    <!------JavaScript-------->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <!-----JavaScript For Mobile Side----->
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby5QMD_Cnm5H71uTTr2bbUIDEx8P-eu7kwFYayJCFM5HfSS-nAy2xrkeud7MBauDYAxwA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message send successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+               
+                },5000)
+                form.reset()
+            })
+
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
